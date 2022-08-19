@@ -2,7 +2,7 @@ package login
 
 import (
 	"encoding/json"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
+	"github.com/huyongchao98/go-admin/modules/logger"
 	"io/ioutil"
 	"net/http"
 	"net/url"

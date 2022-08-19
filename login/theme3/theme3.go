@@ -2,10 +2,10 @@ package theme3
 
 import (
 	"github.com/GoAdminGroup/components/login"
-	"github.com/GoAdminGroup/go-admin/template"
+	"github.com/huyongchao98/go-admin/template"
 )
 
-type Theme3 struct{
+type Theme3 struct {
 	*template.BaseComponent
 }
 

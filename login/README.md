@@ -10,17 +10,17 @@ The following code shows how to use the login module, please pay attention to th
 package main
 
 import (
-	_ "github.com/GoAdminGroup/go-admin/adapter/gin"	    
-        _ "github.com/GoAdminGroup/go-admin/adapter/gin"
-        _ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	_ "github.com/huyongchao98/go-admin/adapter/gin"	    
+        _ "github.com/huyongchao98/go-admin/adapter/gin"
+        _ "github.com/huyongchao98/go-admin/modules/db/drivers/mysql"
         // import the theme2 login theme, if you don`t use, don`t import
         _ "github.com/GoAdminGroup/components/login/theme2"
 	
 	"github.com/GoAdminGroup/components/login"
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/examples/datamodel"
-	"github.com/GoAdminGroup/go-admin/plugins/admin"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/captcha"
+	"github.com/huyongchao98/go-admin/engine"
+	"github.com/huyongchao98/go-admin/examples/datamodel"
+	"github.com/huyongchao98/go-admin/plugins/admin"
+	"github.com/huyongchao98/go-admin/plugins/admin/modules/captcha"
 	"github.com/gin-gonic/gin"
 	"io/ioutil"
 )
